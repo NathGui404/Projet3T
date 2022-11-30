@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
 import requests
-
+import folium
+from streamlit_folium import folium_st
 
 st.title('Analyse du réseau de transports en commun de la ville de Rennes')
 st.image('Bus-100x100.png')
